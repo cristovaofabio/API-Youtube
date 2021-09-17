@@ -1,4 +1,4 @@
-# Pojeto flutter: API do YouTube
+# Projeto flutter: API do YouTube
 
 Projeto flutter que demonstrar a utilização da API do YouTube
 
