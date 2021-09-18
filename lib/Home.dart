@@ -50,6 +50,7 @@ class _HomeState extends State<Home> {
               onPressed: () async {
                 String? resultado = await showSearch(
                     context: context, delegate: CustomPesquisa());
+                //O CustomPesquisa() é utilizado apenas para exibir uma lista de sugestões.
                 _atualizar_texto_digitado(resultado!);
               },
               icon: Icon(Icons.search)),
